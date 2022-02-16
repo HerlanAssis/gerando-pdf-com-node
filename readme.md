@@ -2,7 +2,7 @@
 
 <img src="./banner.jpg" alt="Imagem de apresentação">
 
-> Este projeto tem como finalizade mostar uma forma simples e prática de gerar PDF a partir de templates HTML.
+> Este projeto tem como finalidade mostar uma forma simples e prática de gerar PDF a partir de templates HTML.
 
 Estrutura do projeto:
 
@@ -44,8 +44,8 @@ $ npm -v
 ## 🚀 Instalando
 
 ```shell
-$ git clone <url_prjeto> gerando-pdf
-$ cd projeto
+$ git clone https://github.com/iteris-herlansilva/gerando-pdf-com-node gerando-pdf
+$ cd gerando-pdf
 $ npm install
 ```
 
