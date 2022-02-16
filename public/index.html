@@ -1,0 +1,23 @@
+{% extends "./base.html" %} 
+
+{% block extrastyle %}
+<link rel="stylesheet" type="text/css" href="{{postCssPath}}" />
+{% endblock %} 
+
+{% block content %}
+
+<div class="post">
+    <h3 id="title">{{post.title}}</h3>
+    <p>{{post.body | indent}}</p>
+
+    <div class="comments">
+        {% for comment in post.comments %}
+        <div class="comment">
+            <h6>{{comment.name}} | {{comment.email}}</h6>
+            <p>{{comment.body | indent}}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

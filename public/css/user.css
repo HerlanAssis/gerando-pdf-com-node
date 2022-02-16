@@ -1,0 +1,30 @@
+.user-profile {
+  width: 40%;
+  height: calc(100% - 32px);
+  margin: 8px;
+  padding: 8px;
+  background-color: #fff;
+}
+
+.user-post {
+  width: calc(60% - 64px);
+  height: calc(100% - 32px);
+  margin: 8px;
+  padding: 8px;
+  background-color: #fff;
+}
+
+.profile-picture {  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+}
+
+#picture {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}

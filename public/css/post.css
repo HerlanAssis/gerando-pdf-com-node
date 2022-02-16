@@ -1,0 +1,16 @@
+h3, #title {
+    text-align: center;
+}
+
+.comments {
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.comment {
+    margin-left: 4px;
+}
+
+.comment p {
+    font-style: italic;
+}
