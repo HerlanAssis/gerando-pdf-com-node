@@ -44,7 +44,7 @@ $ npm -v
 ## 🚀 Instalando
 
 ```shell
-$ git clone https://github.com/iteris-herlansilva/gerando-pdf-com-node gerando-pdf
+$ git clone https://devops.iteris.com.br/Personal/herlan.silva/_git/gerando-pdf-com-node gerando-pdf
 $ cd gerando-pdf
 $ npm install
 ```
