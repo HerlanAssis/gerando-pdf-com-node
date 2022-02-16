@@ -10,6 +10,7 @@ Estrutura do projeto:
 .
 ├── app.js
 ├── banner.jpg
+├── exemplo.pdf
 ├── package.json
 ├── public
 │   ├── base.html
